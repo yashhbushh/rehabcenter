@@ -1,0 +1,368 @@
+body{
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Mogra';
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.doctor-image {
+  height: 150px;
+  margin-top: 5%;
+  margin-bottom: 20px;
+
+}
+
+.colored-section {
+  background-color: #6a8caf;
+
+}
+.big-heading {
+  color: #fff;
+
+
+
+}
+
+/* navigation bar */
+.container-first{
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.nav-link{
+  font-size: 1.1rem;
+  font-family: "Ubuntu";
+
+}
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.1rem;
+}
+/* container fluid */
+.container-fluid{
+  padding: 7% 10% 0;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+}
+.accomodation {
+  padding: 50px 0px 10px;
+}
+
+/* button */
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.button2{
+  padding: auto 60px auto;
+}
+.call-link {
+  color: #fff;
+}
+
+.btn {
+
+}
+/* feature */
+.feature {
+  margin-bottom: 50px;
+}
+
+.icon-features {
+  color: #6a8caf;
+  margin-bottom: 1rem;
+}
+
+.feature-header {
+  padding-top: 50px;
+}
+.feature-title {
+  font-size: 1.5rem;
+
+}
+.feature-box {
+  padding: 4.5%;
+}
+.icon-features:hover {
+  color: #27496d;
+}
+/* facility */
+
+
+.facility{
+  background-color: #6a8caf;
+  color: #fff;
+
+}
+
+.table {
+  line-height: 3;
+  font-size: 1.1rem;
+  font-family:"Ubuntu";
+
+}
+.image-facility {
+  width: 400px;
+
+}
+.image-facility2 {
+  width: 450px;
+}
+.facility-section {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#facility {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* testimonial */
+#testimonials {
+
+  background-color: #6a8caf;
+  color: white;
+}
+.testimonial-image {
+  width: 10%;
+
+  margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Quote */
+.alcohol {
+  height: 350px;
+  padding-top: 50px;
+
+}
+
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 10% 20%;
+}
+
+/* footer */
+#footer{
+  background-color: #6a8caf;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gallery */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: left;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #fff;
+
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 440px;
+  height: 327px;;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 1.5rem
+}
+
+#Gallery{
+  background-color: #6a8caf;
+}
+
+#contact-us{
+  background-color:  #6a8caf;
+}
+.about-us{
+  font-size: 1.5rem;
+}
+
+/* media query */
+@media only screen and (max-width: 1028px) {
+
+  h1{
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+    line-height: 2;
+  }
+
+
+  .container-first {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  .container-fluid {
+   padding-right: 3%;
+   padding-left: 3%;
+
+  }
+
+
+  .big-heading{
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .btn{
+    height: 80px;
+
+  }
+
+  .doctor-image{
+    height: 200px;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .navbar{
+    padding-bottom: 10px;
+  }
+  .nav-item{
+    font-size: 2rem;
+    font-family: "Ubuntu";
+  }
+  .nav-link{
+    font-size: 3rem;
+  }
+  .navbar-toggle{
+    transform: scale(50px);
+  }
+  .feature-header {
+    font-size: 70px;
+    padding-bottom: 50px;
+  }
+.list{
+  margin-left: 0px;
+  padding-left: 0px;
+
+}
+.image-patient {
+  height: 100px;
+}
+.border {
+  border-left: 0px solid white;
+  border-bottom: 0px;
+}
+.alcohol {
+  height: 500px;
+}
+.quote {
+  font-size: 30px;
+}
+
+.pricing-column {
+  padding: 0% 10%;
+}
+.img-facility{
+  padding-top: 50px;
+  height: 200px;
+}
+.image-facility2{
+  padding-top: 50px;
+  height: 200px;
+}
+#pricing{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.feature-title{
+  font-size: 3rem;
+}
+.price-text{
+  font-size: 3rem;
+}
+.months{
+  font-size: 3rem;
+}
+.card-body{
+  font-size:3rem;
+}
+.call-link{
+  font-size: 2rem;
+}
+.testimonial-text{
+  font-size:70px;
+}
+.em{
+  font-size: 20px;
+}
+.navbar-toggler{
+  padding: 15px 20px;
+  margin-right: 30px;
+}
+.navbar-toggler-icon{
+  height: 50px;
+  width: 100px;
+}
+.about-us{
+  font-size:3rem;
+}
+}
